@@ -1,0 +1,34 @@
+.studentcards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 2px lightgray solid;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px lightgray;
+    padding: 10px;
+    width: auto;
+    align-items: center;
+}
+
+.studentcards img {
+    width: 70%;
+    border-radius: 50%;
+    border: 5px steelblue solid;;
+}
+
+.studentcards h2 {
+    font-size: medium;
+    color: crimson;
+}
+
+.text {
+    font-size: small;
+    text-align: center;
+}

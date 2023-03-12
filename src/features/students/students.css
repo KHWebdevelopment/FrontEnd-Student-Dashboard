@@ -1,0 +1,97 @@
+.students {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px lightgray solid;
+    border-radius: 5px;
+    box-shadow: 5px 10px 20px lightgray;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: medium;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: crimson;
+    text-align: center;
+}
+
+.studentslist {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    width: auto;
+}
+
+.list-item {
+    display: flex;
+    width: auto;
+}
+
+button {
+    display: flex;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bold;
+    background-color: crimson;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    width: auto;
+    border: none;
+}
+
+.students img {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px steelblue solid;
+    margin: auto;
+}
+
+.student-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px lightgray solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 5px 10px 20px lightgray;
+    padding: 10px;
+    width: 100%;
+}
+
+.table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.th {
+    border: 1px lightgray solid;
+    border-bottom: 2px gray solid;
+    font-size: small;
+    width: 33%;
+}
+
+.td {
+    border: 1px lightgray solid;
+    text-align: center;
+    width: 33%;
+}
+
+@media screen and (max-width: 885px) {
+    .students {
+        width: 100%;
+    }
+
+    .studentslist {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .students img {
+        width: 30%;
+    }
+}

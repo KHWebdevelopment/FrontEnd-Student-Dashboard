@@ -1,0 +1,38 @@
+.checkboxes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+    width: auto;
+}
+
+label {
+    display: flex;    
+    color: black;
+    font-size: x-small;
+    font-weight: bold;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.difficulty {
+    color: crimson;
+}
+
+.fun {
+    color: steelblue;
+}
+
+input[type="checkbox"] {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.65rem;
+    accent-color: steelblue;
+}
+
+input[type="checkbox"]:hover {
+    accent-color: crimson;
+}
+
+

@@ -1,0 +1,11 @@
+.charts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px lightgray solid;
+    border-radius: 5px;
+    box-shadow: 5px 10px 20px lightgray;
+    padding: 10px;
+    width: auto;
+}
+

@@ -1,0 +1,32 @@
+main {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.about {
+    color: crimson;
+    text-align: center;
+}
+
+p {
+    font-size: large;
+    text-align: center;
+}
+
+.about-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 885px) {
+    main {
+        flex-direction: column;
+    }
+}

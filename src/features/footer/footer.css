@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: steelblue;
+    color:white;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+}
